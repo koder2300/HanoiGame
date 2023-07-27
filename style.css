@@ -4,120 +4,45 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
 .containerAll {
-  display: grid;
-  gap: 1rem 1rem;
-  max-width: 960px;
-}
-.towers {
+  width: 100%;
+  min-height: 100vh;
+  background-color: yellowgreen;
   display: flex;
-  justify-content: space-around;
-  margin: 10px 20px;
-  position: relative;
+  align-items: center;
+  justify-content: center;
 }
-/*          DISK */
-.disk1 {
-  position: absolute;
-  width: 50px;
-  height: 20px;
-  background-color: pink;
-  top: 120px;
-  left: 75px;
-  order: 100;
-  /* position: sticky; */
+
+.box1,
+.box2,
+.box3 {
+  width: 300px;
+  min-height: 400px;
+  margin: 20px;
+  border: 2px dashed white;
 }
-.disk2 {
-  position: absolute;
-  width: 75px;
-  height: 20px;
-  background-color: blue;
-  top: 140px;
-  left: 65px;
-  order: 100;
+.disk {
+  background-color: aqua;
+
+  color: white;
+  display: flex;
+  align-items: center;
+  cursor: grab;
+  justify-content: center;
 }
-.disk3 {
-  position: absolute;
-  width: 100px;
-  height: 20px;
+.red {
   background-color: red;
-  top: 160px;
-  left: 55px;
-  order: 100;
+  height: 30px;
+  margin: 20px;
 }
-/* /////////////////////// */
-.towerOne {
-  width: 200px;
-  height: 200px;
-  position: relative;
+.blue {
+  background-color: blue;
+  height: 60px;
+  margin: 20px;
 }
-.towerVert1 {
-  left: 99px;
-  top: 10px;
-  width: 3px;
-  height: 170px;
-
-  position: absolute;
-  border: 1px solid black;
-  background-color: black;
-}
-.towerHor1 {
-  left: 0;
-  top: 180px;
-  width: 200px;
-  height: 2px;
-
-  position: absolute;
-  border: 1px solid black;
-  background-color: black;
-}
-/* ///////////////////////      Tower two */
-
-.towerTwo {
-  width: 200px;
-  height: 200px;
-  position: relative;
-}
-.towerVert2 {
-  left: 100px;
-  top: 0px;
-  width: 3px;
-  height: 180px;
-  position: absolute;
-  border: 1px solid black;
-  background-color: black;
-}
-.towerHor2 {
-  left: 0px;
-  top: 180px;
-  width: 200px;
-  height: 2px;
-  position: absolute;
-  border: 1px solid black;
-  background-color: black;
-}
-
-/* ///////////////////////      Tower three */
-
-.towerThird {
-  width: 200px;
-  height: 200px;
-  position: relative;
-}
-.towerVert3 {
-  left: 100px;
-  top: 10px;
-  width: 3px;
-  height: 170px;
-  position: absolute;
-  border: 1px solid black;
-  background-color: black;
-}
-.towerHor3 {
-  left: 0px;
-  top: 180px;
-  width: 200px;
-  height: 2px;
-  position: absolute;
-  border: 1px solid black;
-  background-color: black;
+.green {
+  background-color: green;
+  height: 90px;
+  margin: 20px;
 }
