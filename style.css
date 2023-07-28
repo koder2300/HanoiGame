@@ -22,6 +22,15 @@ body {
   margin: 20px;
   border: 2px dashed white;
 }
+.dragging {
+  opacity: 0.5;
+}
+.box {
+  width: 300px;
+  min-height: 400px;
+  margin: 20px;
+  border: 2px dashed white;
+}
 .disk {
   background-color: aqua;
 
