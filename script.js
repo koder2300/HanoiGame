@@ -12,13 +12,10 @@ disks.forEach((disk) => {
     disk.classList.remove("dragging");
     numberMoves++;
     numbers.textContent = `${numberMoves}`;
-    console.log(numberMoves);
   });
 });
 boxes.forEach((box) => {
   box.addEventListener("dragover", (e) => {
-    // console.log(e);
-
     e.preventDefault();
     const draggable = document.querySelector(".dragging");
     box.appendChild(draggable);
